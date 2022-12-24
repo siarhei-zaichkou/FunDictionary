@@ -43,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A535C9FE2956F28300AE08F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5687033294EAD4900007216 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A568700A294E97F000007216 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +74,8 @@
 				A568702E294E98AA00007216 /* Models */,
 				A568702D294E989100007216 /* ViewControllers */,
 				A568702A294E980B00007216 /* Storyboards */,
+				A535C9FE2956F28300AE08F7 /* Services */,
 				A568702C294E986400007216 /* Resources */,
-				A5687033294EAD4900007216 /* NetworkManager.swift */,
 			);
 			path = FunDictionary;
 			sourceTree = "<group>";

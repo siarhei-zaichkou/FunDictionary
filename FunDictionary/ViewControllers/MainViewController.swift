@@ -17,8 +17,5 @@ class MainViewController: UIViewController {
         
         definitionTableVC.fetchWordDefinitions(of: encodedWord)
     }
-    
-    @IBAction func searchButtonPressed() {
-        
-    }
+
 }

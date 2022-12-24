@@ -1,18 +1,16 @@
-struct DefinitionsList: Decodable {
-    let list: [Definition]
+import Foundation
+
+// MARK: - Definition
+struct Definition: Codable {
+    let list: [List]
 }
 
-struct Definition: Decodable {
-    let word: String
-    let definition: String
-    let example: String
-    let written_on: String
-    let author: String
+// MARK: - List
+struct List: Codable {
+    let word, author, definition, writtenOn, example: String
+
+    enum CodingKeys: String, CodingKey {
+        case definition, author, word, example
+        case writtenOn = "written_on"
+    }
 }
-
-
-
-//      "author": "Zatarain’s Root Beer Drinker",
-//      "defid": 15687506,
-//      "written_on": "2021-01-25T07:02:13.234Z",
-//      "example": "[Seth] [Putnam]: [FAGGOT]!!!!!!!!! FAGGOT!!!!!!!!! FAGGOT!!!!!!!!!\n\nYou’re

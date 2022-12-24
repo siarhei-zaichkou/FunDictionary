@@ -11,7 +11,6 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="FunDictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -43,7 +42,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <action selector="searchButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="PE7-bu-nLr"/>
                                     <segue destination="THN-QQ-yVG" kind="show" id="tza-9H-0nL"/>
                                 </connections>
                             </button>
@@ -68,6 +66,7 @@
                         <outlet property="wordTextField" destination="VqZ-SH-icE" id="Hit-Ct-Kds"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="862.5" y="66.549295774647888"/>
         </scene>
